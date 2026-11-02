@@ -1,11 +1,11 @@
-# trainplat_jd449
+# annotation_agreement_bias_count_trace
 
 **追溯大模型训练平台工程师·标注一致性与标注者偏差里每一份贡献来自哪里。**
 
-`trainplat_jd449` —— 统计各来源片段的贡献量与占比，标出大模型训练平台工程师·标注一致性与标注者偏差上最主要的来源
+`annotation_agreement_bias_count_trace` —— 统计各来源片段的贡献量与占比，标出大模型训练平台工程师·标注一致性与标注者偏差上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`trainplat_jd449.py` 拷走就能用
+- 单文件，`annotation_agreement_bias_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install mkravet-trainplat_jd449
+pip install mkravet-annotation_agreement_bias_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-trainplat_jd449 --help
+annotation_agreement_bias_count_trace --help
 ```
 
-也可以不用安装，直接把 `trainplat_jd449.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `annotation_agreement_bias_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ trainplat_jd449 --help
 ## 用法
 
 ```bash
-python trainplat_jd449.py --file input.txt
-python trainplat_jd449.py --text "示例内容"
-python trainplat_jd449.py --file input.txt --json
+python annotation_agreement_bias_count_trace.py --file input.txt
+python annotation_agreement_bias_count_trace.py --text "示例内容"
+python annotation_agreement_bias_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python trainplat_jd449.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_trainplat_jd449.py
+python test_annotation_agreement_bias_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_trainplat_jd449.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/mkravet/trainplat_jd449>
+- GitHub 仓库：<https://github.com/mkravet/annotation_agreement_bias_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_trainplat_jd449.py
 mkravet 做大模型训练平台工程师·标注一致性与标注者偏差相关的问题，方向对标百川智能的初级大模型训练平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://mkravet.github.io>
-- 仓库：<https://github.com/mkravet/trainplat_jd449>
+- 仓库：<https://github.com/mkravet/annotation_agreement_bias_count_trace>
 
 ## 许可
 
